@@ -1,0 +1,19 @@
+[package]
+name = "tap-save"
+version = "0.1.0"
+authors = ["Solal Jacob"]
+edition = "2021"
+
+description = "Save / Relaunch list of TAP executed tasks"
+readme      = "README.md"
+
+[dependencies]
+tap = { version="0.1.0", git="https://github.com/tap-ir/tap.git" }
+
+clap = "2.33.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+log = "0.4"
+pretty_env_logger = "0.4.0"
+toml = "0.5.6"
